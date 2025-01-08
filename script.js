@@ -47,3 +47,8 @@ let newli = function() {
 }
 
 button.addEventListener('click', newli);
+text.addEventListener('keypress', (event)=>{
+    if (event.key === "Enter") {
+    newli();
+  }
+});
